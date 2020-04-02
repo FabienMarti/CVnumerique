@@ -1,0 +1,43 @@
+body{
+    font-family: "Arial Verdana", sans-serif;
+}
+
+/* header */
+#identityDiv{
+    width: auto;
+    height: 125px;
+    background-color: #302E2C;
+    color: white;
+    padding-left: 200px;
+    padding-top:5px;
+}
+#nav{
+    width: auto;
+    height: 50px;
+    background-color: #50A3D9;
+    color: white;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+.button{
+    float: left;
+    padding-left: 20px;
+    padding-top: 17px;
+}
+#dwnl{
+    background-color: #2C8CCA;
+    width: 190px;
+    margin-top: 3px;
+    height : 44px;
+    float: right;
+    padding-left: 10px;
+    margin-right: -50px;
+    border-radius: 35px;
+}
+#activeLink{
+    height: 3px;
+    width: 100%;
+    background-color: #236FA0;
+}
+
+/*header fin*/
