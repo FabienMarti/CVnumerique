@@ -1,28 +1,38 @@
 body{
     font-family: "Arial Verdana", sans-serif;
+    background-color: #F2F2F2;
 }
 
 /* header */
 #identityDiv{
-    width: auto;
-    height: 125px;
     background-color: #302E2C;
     color: white;
     padding-left: 200px;
-    padding-top:5px;
+    padding-top:3px;
+    padding-bottom:3px;
+    margin-bottom: -20px;
 }
 #nav{
     width: auto;
     height: 50px;
     background-color: #50A3D9;
     color: white;
-    padding-left: 180px;
+    padding-left: 140px;
     padding-right: 180px;
+}
+#nav li{
+    list-style: none;
+}
+#activeLink{
+    border-bottom: 5px solid  #236FA0;
 }
 .button{
     float: left;
-    padding-left: 20px;
-    padding-top: 17px;
+    padding: 20px;
+    padding-bottom: 6.5px;
+}
+a:hover{
+    cursor:pointer;
 }
 #dwnl{
     background-color: #2C8CCA;
@@ -34,10 +44,11 @@ body{
     margin-right: -50px;
     border-radius: 35px;
 }
-#activeLink{
-    height: 3px;
-    width: 100%;
-    background-color: #236FA0;
+a{
+    text-decoration: none;
+    color: white;
 }
-
 /*header fin*/
+
+
+
