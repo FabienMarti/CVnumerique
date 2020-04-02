@@ -1,0 +1,20 @@
+.blueTitle{
+    color:#50A3D9;
+}
+#diplomeDiv{
+    margin-left: 10%;
+    margin-right: 10%;
+    height: auto;
+    width: 80%;
+    background-color: #FFFFFF; 
+    float: left;
+}
+ #diplomeDiv li{
+    list-style: none;
+    display: block;
+    height: 70px;
+    line-height: 70px;
+}
+#diplomeDiv li img {
+    vertical-align: middle;
+}
