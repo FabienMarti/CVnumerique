@@ -6,6 +6,12 @@
         <title>Accueil</title>
         <link rel="stylesheet" type="text/css" href="assets/css/index.css" />
         <link rel="stylesheet" type="text/css" href="assets/css/header.css" />
+        <script>
+            function myFunction() {
+                var popup = document.getElementById("myPopup");
+                popup.classList.toggle("show");
+            }
+        </script>
     </head>
 
     <body>
@@ -22,7 +28,7 @@
                     <li><a class="button" href="skills.html" title="Compétences">COMPÉTENCES</a></li>
                     <li><a class="button" href="projects.html" title="Projets">PROJETS</a></li>
                 </ul>
-                <a>
+                <a target="_blank" href="assets/media/CV_Martiretti.pdf" download="CV MARTIRETTI">
                     <div id="dwnl">
                         <div>
                             <image titre="Télécharger" alt="Image d'une flèche qui symbole le téléchargement"
@@ -44,21 +50,53 @@
             </div>
             <div id="contact">
                 <h2 class="blueTitle">Contact</h2>
-                <div>
+                <div class="contactDiv">
                     <a href="contact.html">
                         <image style="width: 60px; margin-left : 35px; margin-top: 15px;" src="assets/img/mail.png" />
-                        </a>
+                    </a>
                 </div>
-                <div>
-                    <image style="width: 100px; margin-left : 15px; margin-top: 10px;" src="assets/img/mobile.png" />
+                <div class="contactDiv">
+                    <div class="popup" onclick="myFunction()">
+                        <image style="width: 100px; margin-left : 15px; margin-top: 10px;"
+                            src="assets/img/mobile.png" /><span class="popuptext" id="myPopup">Tel :
+                            07.86.75.19.88</span></div>
+
                 </div>
             </div>
         </aside>
         <section>
             <div>
-
                 <h2 class="blueTitle">
-                    <image style="width: 30px;margin-right: 5px;" src="assets/img/exp.png" />EXPÉRIENCES</h2>
+                    <image style="width: 30px;margin-right: 5px;" src="assets/img/whoami.png" />QUI SUIS-JE ?</h2>
+            </div>
+            <div style="background-color: white; margin: 10px;">
+                <p><span class="marge">Je m'appelle Martiretti Fabien</span>, je suis titulaire d'un
+                    Baccalauréat Professionnel dans le domaine de
+                    la Fonderie, ainsi
+                    que d'un Brevet de Technicien supérieur dans le même domaine, j'ai principalement travaillé dans le
+                    domaine du loisir et
+                    de la culture, notament au cinéma Pathé de Montataire dans l'Oise.</br></br>
+                    <span class="marge">J’ai </span>découvert le développement sur OpenClassRoom, j’ai appris à
+                    développer en amateur sur Unity
+                    (C#), j’ai ensuite commencé à rechercher des formations en développement tout en apprenant le
+                    HTML/CSS, le PHP,
+                    MyAdmin, et le JavaScript, j’ai même développé un site Web. J’aime le développement sous toutes ses
+                    formes, c’est
+                    l’avenir.</br></br>
+                    <span class="marge">Je veux</span> devenir développeur Web et Web mobile, puis plus tard passer au
+                    niveau supérieur, concepteur
+                    d’applications.
+                </p>
+            </div>
+
+            <h2 class="blueTitle">
+                <image style="width: 30px;margin-right: 5px;" src="assets/img/exp.png" />EXPÉRIENCES</h2>
+            </div>
+            <div style="background-color: white; margin: 10px;">
+                <h2>Développement d'un site Web (6 mois)</h2>
+
+
+
             </div>
             <div style="background-color: white; margin: 10px;">
                 <h2>Agent-Polyvalent</h2>
