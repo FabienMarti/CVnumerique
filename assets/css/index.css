@@ -1,4 +1,57 @@
+#asideLeft{
+    float: left;
+    margin-left: 10%;
+    margin-top: 3%;
+    width: 15%;
+    height: auto;
+    
+}
+section{
+    margin-top: 3%;
+    float: left;
+    height: 800px;
+    width: 45%;
+    padding:20px;
+}
+#asideRight{
+    margin-right: 10%;
+    margin-top: 3%;
+    float: left;
+    height: 800px;
+    width: 15%;
+}
 
-
-
+#identity{
+    padding: 10px;
+    height: 200px;
+    background-color: #E8E8E9;
+}
+#identity li{
+    list-style: none;
+    margin: 0 0 15px 0;   
+}
+#identity > *{
+    float:left;
+}
+#contact{
+    margin-top: 10px;
+    height: 150px;
+    background-color: #E8E8E9;
+}
+#contact div{
+    width: 131px;
+    height: 50%;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #DEDEDF;
+    border-radius: 15px;
+    float: left;
+}
+h3{
+    color: #C0C0C0;
+}
+.blueTitle{
+    color:#50A3D9;
+}
 
