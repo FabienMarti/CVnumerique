@@ -7,3 +7,6 @@
     width: 820px;
     background-color: #FFFFFF;   
 }
+li{
+    list-style: none;
+}
