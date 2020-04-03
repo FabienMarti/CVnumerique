@@ -1,0 +1,21 @@
+.blueTitle{
+    color:#50A3D9;
+    text-decoration: underline;
+}
+
+#contactDiv{
+    margin: 0 auto;
+    width: 820px;
+    background-color: #FFFFFF;   
+}
+form li{
+   
+    list-style: none;
+    margin-bottom : 10px;
+
+}
+}
+#labelMessage 
+{display:block;}
+textarea
+ { display:block;}
