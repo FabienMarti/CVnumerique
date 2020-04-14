@@ -1,0 +1,34 @@
+#identity{
+
+    background-color: #E8E8E9;
+}
+#identity li{
+    list-style: none;
+    margin: 0 0 15px 0;   
+}
+
+#contact{
+
+    background-color: #E8E8E9;
+}
+.contactDiv{
+    background-color: #DEDEDF;
+}
+h3{
+    color: #C0C0C0;
+}
+.blueTitle{
+    color:#50A3D9;
+}
+.marge{
+    margin-left: 5em;
+}
+#dwnlArrow{
+  height: 40px; 
+  float: left; 
+  padding-top: 3px;
+}
+.moiPhoto{
+    height: 150px;
+    overflow: hidden;
+}

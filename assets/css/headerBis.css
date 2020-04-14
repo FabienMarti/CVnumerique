@@ -1,0 +1,10 @@
+
+a{
+    text-decoration: none;
+}
+.navCustom{
+    background-color: #50A3D9;
+}
+#activeLink{
+    border-bottom: 5px solid  #236FA0;
+}
